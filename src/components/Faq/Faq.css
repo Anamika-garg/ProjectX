@@ -1,0 +1,94 @@
+.Faq-Container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background: #000; */
+  background: linear-gradient(164deg ,rgb(254, 232, 76) ,black , black , black , black , black);
+  /* background: linear-gradient(164deg ,rgb(254, 232, 76) ,rgb(31, 30, 30) ,rgb(31, 30, 30) ,rgb(31,30,30) ,rgb(31,30,30) ,rgb(31,30,30)  ); */
+  /* margin-bottom: 20px; */
+}
+.faq-div {
+  width: 60vw;
+  min-height: 500px;
+  border-radius: 14px;
+  /* border: 1px solid rgb(254, 232, 76); */
+  display: flex;
+  flex-direction: column;
+}
+.faq {
+  border-radius: 14px;
+  min-height: 88px;
+  width: 100%;
+  /* background: red; */
+  margin: 10px 0px;
+  border-bottom: 2px solid rgb(254, 232, 76);
+  opacity: 0.4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign {
+  height: 90px;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: tranform 0.3s ease;
+  /* background: red; */
+  /* background: rgb(254, 232, 76); */
+}
+.sign::before {
+  height: 20px;
+  width: 3px;
+  background: rgb(254, 232, 76);
+  content: "";
+  position: relative;
+  left: 11px;
+}
+.sign::after {
+  height: 3px;
+  width: 20px;
+  background: rgb(254, 232, 76);
+  content: "";
+  position: relative;
+}
+.faq-text-div {
+  /* background: red; */
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  /* justify-content: center; */
+  width: 100%;
+  min-height: 100%;
+}
+.faq-text-div .ques {
+  color: white;
+  /* margin-top: 30px;
+  margin-left: 20px; */
+  z-index: 3;
+}
+.faq-text-div .ans {
+    margin: 4px 0px;
+    color: white;
+    display: none;
+}
+.Join-Our-Alliance-Container{
+  width: 100vw;
+  height: 100vh;
+  /* background: linear-gradient(168deg ,rgb(31, 30, 30) ,rgb(31, 30, 30) , rgb(31, 30, 30),rgb(31, 30, 30), rgb(254, 232, 76)); */
+  background: linear-gradient(168deg ,black ,black , black,black, rgb(254, 232, 76));
+  display: flex;
+  align-items: center;
+  opacity: 0.61;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Join-Our-Alliance-Container p{
+  font-size: 1em;
+  text-align: center;
+  margin-top: 0px;
+}

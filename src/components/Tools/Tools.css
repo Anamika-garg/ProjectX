@@ -1,0 +1,81 @@
+.Tools-container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  background: #000;
+}
+.Tools-container p {
+  margin: 0px;
+  color: rgb(179, 179, 179);
+}
+.Tools-div {
+  flex-wrap: wrap;
+  min-height: 60vh;
+  width: 90vw;
+  /* background: red; */
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tools {
+  height: 400px;
+  width: 380px;
+  /* background: yellow; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  margin: 20px 15px;
+}
+.tools .img {
+  height: 280px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.tools .title {
+  font-size: 1.4em;
+  margin: 30px 0px;
+  text-align: left;
+  display: flex;
+  color: white;
+  align-self: flex-start;
+  opacity: 0.6;
+}
+.mainHeading {
+  opacity: 0.6;
+  font-weight: 700;
+}
+.tools button {
+  width: 98%;
+  height: 60px;
+  opacity: 0.9;
+  /* background: rgb(254, 232, 76); */
+  border: 1px solid rgb(179, 179, 179);
+  background: transparent;
+  outline: none;
+  /* border: none; */
+  color: rgb(179, 179, 179);
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  /* color: rgb(179, 179, 179); */
+}
+.tools button:hover {
+  background: rgb(179, 179, 179);
+  color: white;
+}
+.clg {
+  background: url("college-predictor.avif");
+}
+.lap {
+  background: url("Laptop-Adviser.avif");
+}
+.projx {
+  background: url("Project-X.avif");
+}

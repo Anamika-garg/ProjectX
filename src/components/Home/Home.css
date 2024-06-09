@@ -1,0 +1,138 @@
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  /* flex-wrap: wrap; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+  align-items: center;
+}
+.Home-text {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* background-color: pink; */
+  align-items: flex-start;
+  width: 671px;
+  min-height: 367px;
+  margin: 20px 130px;
+  padding: 20px;
+  /* justify-self: flex-start; */
+}
+.Home-text p {
+  color: rgb(179, 179, 179);
+  letter-spacing: 0.23em;
+  font-size: 1.2em;
+}
+.Home-text h1 {
+  font-weight: 500;
+  font-size: 4em;
+  margin: 0px 20px;
+}
+.upperCase {
+  text-transform: uppercase;
+}
+.Start-Your-Journey-div {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 3px solid rgb(179, 179, 179);
+  border-radius: 20px;
+  width: 350px;
+  padding: 2px;
+  height: 49px;
+  margin: 20px 20px;
+}
+.Start-Your-Journey-div p {
+  font-size: 1em;
+  letter-spacing: 0.1em;
+}
+
+.btn {
+  height: 40px;
+  width: 100px;
+  background-color: rgb(254, 232, 76);
+  border-radius: 20px;
+  opacity: 1;
+  font-size: 0.8em;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: right;
+  text-decoration: none;
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: black;
+  color: rgb(254, 232, 76);
+  border: 1px solid rgb(254, 232, 76);
+}
+.Home-img img {
+  height: 500px;
+  width: 500px;
+  position: relative;
+  right: -200px;
+  animation: showImg 2s forwards 1;
+}
+
+@keyframes showImg {
+  0% {
+    right: -200px;
+  }
+  100% {
+    right: 60px;
+  }
+}
+
+.afterSmallScreenNav {
+  height: 100vh;
+  width: 300px;
+  background-color: white;
+  right: -1000px;
+  /* position: fixed; */
+  position: fixed;
+  z-index: 3;
+}
+.navAfterSmallScreen,
+.ulAfterSmallScreen {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+.ulAfterSmallScreen li{
+  color: black;
+  border-radius: 14px;
+padding: 15px;
+}
+.ulAfterSmallScreen li a {
+    padding: 15px;
+  border-radius: 14px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+.ulAfterSmallScreen li a:hover {
+  background: #000;
+  color: white;
+}
+
+.contactbtn{
+  margin-top: 10px;
+}
+.contactbtn a{
+  color: white;
+}

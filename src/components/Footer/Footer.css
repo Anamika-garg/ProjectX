@@ -1,0 +1,46 @@
+.footer-container {
+  height: 20vh;
+  width: 100vw;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.left-items {
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  /* background: red; */
+}
+.left-items img {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-self: flex-start;
+  border-radius: 14px;
+}
+.footerList {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50vw;
+  /* background-color: yellow; */
+}
+.footerList li:hover {
+  color: white;
+}
+.footerList li {
+  color: rgb(179, 179, 179);
+  font-size: 1.1em;
+  display: flex;
+  margin: 0px 10px;
+}
+.dots::after{
+    content: '';
+    position: relative;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: rgb(179, 179, 179);
+    left: 13px;
+}
