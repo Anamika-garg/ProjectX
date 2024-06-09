@@ -115,20 +115,20 @@ export const FaqData = [{
     ans : 'This project aims to provide a comprehensive platform for JEE preparation, offering curated video content, hands-on experiments, and personalized playlists.',
 },{
     id : 'b',
-    ques : 'What is the main purpose of this Project?',
-    ans : 'This project aims to provide a comprehensive platform for JEE preparation, offering curated video content, hands-on experiments, and personalized playlists.',
+    ques : 'Do I need to sign up or log in to access the content?',
+    ans : 'No, you can access all the content freely without any sign-ups or logins..',
 },{
     id : 'c',
-    ques : 'What is the main purpose of this Project?',
-    ans : 'This project aims to provide a comprehensive platform for JEE preparation, offering curated video content, hands-on experiments, and personalized playlists.',
+    ques : 'How are the videos for JEE exam preparation selected?',
+    ans : 'The videos are carefully selected and categorized by experts to provide the best learning experience.',
 },{
     id : 'd',
-    ques : 'What is the main purpose of this Project?',
-    ans : 'This project aims to provide a comprehensive platform for JEE preparation, offering curated video content, hands-on experiments, and personalized playlists.',
+    ques : 'What is unique about the personalized playlists?',
+    ans : 'The personalized playlists are dynamically curated based on your learning progress and preferences, offering a tailored learning journey.',
 },{
     id : 'e',
-    ques : 'What is the main purpose of this Project?',
-    ans : 'This project aims to provide a comprehensive platform for JEE preparation, offering curated video content, hands-on experiments, and personalized playlists.',
+    ques : 'Is the content easily accessible on various devices?',
+    ans : 'Yes, the content is designed to be easily accessible on various devices, allowing you to learn anytime, anywhere.',
 }]
 
 export const blogData =[{

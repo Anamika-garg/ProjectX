@@ -36,7 +36,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: tranform 0.3s ease;
+  transition: all 0.3s ease;
   /* background: red; */
   /* background: rgb(254, 232, 76); */
 }
