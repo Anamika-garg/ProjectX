@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import VideoTemp from './VideoTemp';
 import './Overview.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
 const PlaylistTemplate = ({subject , data}) => {
  
@@ -12,8 +14,9 @@ const PlaylistTemplate = ({subject , data}) => {
     <div className='video-grid'>
       
         {data.map((e)=>{
-            return <VideoTemp chapName = {e.ChapName} image = {e.image}/>
+            return <VideoTemp chapName = {e.ChapName} image = {e.image} key={e.id}/>
         })}
+        <div className="forward-arrow"><FontAwesomeIcon icon={faAngleRight} style={{color : "black"}}/></div>
         
     </div>
     </div>

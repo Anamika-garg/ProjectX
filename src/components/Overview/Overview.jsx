@@ -18,11 +18,11 @@ const Overview = () => {
             <p>Dive into our Personalized Playlists, Dynamically curated to evolve with your <br/> taste for a unique , tailored musical journey. </p>
             <div className="Playlist-div">
                 <div className="sidebar">
-                    <div className="div1"> <div className='icons'> <FontAwesomeIcon className='fontAwesomeIcon' icon={faMagnifyingGlass} style={{color : "white" , height : '20px' , width : '20px'}} /></div> 
-                    <div className='icons'> <FontAwesomeIcon className='fontAwesomeIcon' icon={faHouse} style={{color : "white" , height : '20px' , width : '20px'}} /></div> 
+                    <div className="div1"> <div className='icons'> <FontAwesomeIcon className='fontAwesomeIcon' icon={faMagnifyingGlass} /></div> 
+                    <div className='icons'> <FontAwesomeIcon className='fontAwesomeIcon' icon={faHouse} /></div> 
                     </div>
-                    <div className="div2"> <div className='icons'> <FontAwesomeIcon className='fontAwesomeIcon' icon={faGear} style={{color : "white" , height : '20px' , width : '20px'}} /></div> 
-                    <div className='icons'> <FontAwesomeIcon className='fontAwesomeIcon' icon={faUser}  style={{color : "white" , height : '20px' , width : '20px'}}/></div> 
+                    <div className="div2"> <div className='icons'> <FontAwesomeIcon className='fontAwesomeIcon' icon={faGear} /></div> 
+                    <div className='icons'> <FontAwesomeIcon className='fontAwesomeIcon' icon={faUser} /></div> 
                     </div>
                 </div>
                 <div className="main-playlist-content">

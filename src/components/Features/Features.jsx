@@ -11,7 +11,7 @@ const Features = () => {
             <div className="main-text-features">
             <h1 className="mainHeading">Features</h1>
             {/* <div className='subHeading'>Unlocking Potential: Explore the Power of Integrated Tools and Resources</div>  */}
-            <p>Unlocking Potential: Explore the Power of Integrated Tools and Resources. </p>
+            <p>Unlocking Potential: <br></br> Explore the Power of Integrated Tools and Resources. </p>
             </div>
 
             <div className="cards-div">

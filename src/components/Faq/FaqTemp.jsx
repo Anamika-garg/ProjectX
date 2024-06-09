@@ -3,8 +3,9 @@ import React, { useRef , useState } from 'react'
 const FaqTemp = ({ ques, ans }) => {
   const ansRef = useRef();
   const signRef = useRef();
-  const [visible, setVisible] = useState(false)
+  const [visible, setVisible] = useState(true)
   function toggerVisibility(){
+    
     if(visible){
       ansRef.current.style.display = 'flex';
       signRef.current.style.transform = 'rotate(45deg)'

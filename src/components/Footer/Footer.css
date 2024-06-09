@@ -5,6 +5,8 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  border-top: 1px solid rgb(254, 232, 76);
+  
 }
 .left-items {
   width: 20vw;

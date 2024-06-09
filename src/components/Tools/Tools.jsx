@@ -1,5 +1,6 @@
 import React from 'react';
 import './Tools.css';
+import { Link } from 'react-router-dom';
 const Tools = () => {
   return (
     <div id='tools'>
@@ -10,17 +11,17 @@ const Tools = () => {
                 <div className="tools">
                     <div className="img clg"></div>
                     <div className="title">College Predictor</div>
-                    <button>Read More</button>
+                    <Link to="/predictor"><button> Read More </button></Link>
                 </div>
                 <div className="tools">
                     <div className="img lap"></div>
                     <div className="title">Laptop Adviser</div>
-                    <button>Read More</button>
+                    <Link to="/adviser"><button> Read More </button></Link>
                 </div>
                 <div className="tools">
                     <div className="img projx"></div>
                     <div className="title">Project X</div>
-                    <button>Read More</button>
+                    <Link to="/projectx"><button> Read More </button></Link>
                 </div>
             </div>
         </div>

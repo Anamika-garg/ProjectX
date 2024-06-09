@@ -6,17 +6,19 @@ import Features from './components/Features/Features';
 import Tools from './components/Tools/Tools';
 import Faq from './components/Faq/Faq';
 import Footer from './components/Footer/Footer';
+
 const App = () => {
+  
   return (
+
     <div>
-      <Home/>
-      {/* <hr /> */}
-      <Overview/>
-      <Features/>
-      <Tools/>
-      <Faq/>
-      {/* <hr /> */}
-      <Footer/>
+      <Home />
+      <Overview />
+      <Features />
+      <Tools />
+      <Faq />
+      <Footer />
+      
     </div>
   )
 }

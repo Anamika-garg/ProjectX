@@ -4,21 +4,7 @@ import { FaqData } from '../../dummydata';
 import FaqTemp from './FaqTemp';
 
 const Faq = () => {
-  const [visible, setVisible] = useState(false);
-  const faqAns = useRef()
-  const sign = useRef();
-  function toggleShow() {
-    if (visible) {
-      faqAns.current.style.display = 'flex';
-      sign.current.style.transform = 'rotate(45deg)'
-      setVisible(!visible)
-      }
-      else {
-        faqAns.current.style.display = 'none'
-        sign.current.style.transform = 'rotate(0deg)'
-      setVisible(!visible)
-    }
-  }
+  
   return (
     <div id='faq'>
       <div className="Faq-Container">

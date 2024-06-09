@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
   text-wrap: wrap;
   /* background: red; */
 }
@@ -298,7 +299,7 @@ p {
   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
     rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 
-  animation: animate 20s alternate 0s infinite;
+  animation: animate 35s alternate 0s infinite;
   /* transform: translateX(900px); */
   margin: 0px 20px;
 }

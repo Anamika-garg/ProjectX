@@ -1,63 +1,65 @@
-
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-
-.NavContainer{
-    width: 100vw;
-    height: 100px;
-    /* background: yellow; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    z-index: 2;
+.NavContainer {
+  width: 100vw;
+  height: 100px;
+  /* background: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 2;
 }
-.Header-nav{
-    border: 2px solid rgb(179, 179, 179);
-    background: #000;
-}
-.Header-nav , ul{
-    height: 60px;
+.Header-nav {
+  border: 2px solid rgb(179, 179, 179);
+  background: #000;
+  flex-wrap: wrap;
+  display: flex;
+  }
+  .Header-nav,
+  ul {
     flex-wrap: wrap;
-    width: 80vw;
-    /* background: pink; */
-    border-radius: 30px;
-    /* padding: 3px; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  height: 60px;
+  width: 80vw;
+  /* background: pink; */
+  border-radius: 30px;
+  /* padding: 3px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.left{
-    display: flex;
-    align-items: center;    
+.left {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
-ul li{
-    list-style-type:none ;
-    align-items: center;
-    border-radius: 14px;
-    transition: all 0.2s ease;
-    padding: 7px;
-    /* margin: 0px 10px; */
-    text-transform: capitalize;
-    font-size: 0.9em;
-    }
-    
-li a{
-    text-transform: capitalize;
-    text-decoration: none;
-    color: rgb(179, 179, 179);
+ul li {
+  list-style-type: none;
+  align-items: center;
+  border-radius: 14px;
+  transition: all 0.2s ease;
+  padding: 7px;
+  /* margin: 0px 10px; */
+  text-transform: capitalize;
+  font-size: 0.9em;
 }
-li a img{
-    border-radius: 8px;
+
+li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: rgb(179, 179, 179);
 }
-.hoverEffect:hover{
-    border: 2px solid white;
+li a img {
+  border-radius: 8px;
 }
-.hamburger{
-    color: white;
-    margin-left: 10px;
-    height: 30px;
-    width: 30px;
+.hoverEffect:hover {
+  border: 2px solid white;
+}
+.hamburger {
+  color: white;
+  margin-left: 10px;
+  height: 30px;
+  width: 30px;
 }
