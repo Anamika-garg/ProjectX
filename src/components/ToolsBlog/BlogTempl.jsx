@@ -1,7 +1,7 @@
 import React from 'react'
 
 import logo from './logo.avif';
-import Footer from 'C:\\Users\\Garga\\OneDrive\\Desktop\\Website\\react\\my-app\\GTC Project\\src\\components\\Footer\\Footer';
+import Footer from '../Footer/Footer';
 
 const BlogTempl = ({heading , img , text}) => {
   return (
