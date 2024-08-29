@@ -13,7 +13,7 @@ const App = () => {
 
     <div>
       <Home />
-      <Overview />
+      {/* <Overview /> */}
       <Features />
       <Tools />
       <Faq />
